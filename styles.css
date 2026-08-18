@@ -1,0 +1,34 @@
+.contenedor-1 {
+    background-color: #b2d959; 
+  border-radius: 12px;                  
+  border: 3px solid #66bb6a;
+  color: #ffffff; 
+}
+
+.carrusel-contenedor {
+  max-width: 720px; 
+  margin: 0 auto;   
+}
+
+
+#carouselExampleFade .carousel-item {
+  height: 400px; 
+  background-color: #181818; 
+}
+
+
+#carouselExampleFade .carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; 
+}
+
+@media (max-width: 576px) {
+  #carouselExampleFade .carousel-item {
+    height: 280px;
+  }
+}
+
+.col-md-6 {
+  margin-bottom: 1.5rem;
+}
